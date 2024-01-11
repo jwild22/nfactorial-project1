@@ -1,10 +1,55 @@
 body {
     background-color: rgba(241, 241, 241, 1);
+    font-family: 'Kanit';
+}
+
+button {
+    cursor: pointer;
 }
 
 .header {
-    width: 1440px;
+    display: flex;
+    justify-content: space-between;
     height: 62px;
     padding: 12px, 80px, 12px, 80px;
-    gap: 748px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 144px;
+    height: 22px;
+    margin: 20px 0 20px 80px;
+}
+
+.menu {
+    margin: 0 87.32px 0 0;
+}
+
+.menu button {
+    background-color: transparent;
+    border: none;
+    padding: 10px, 12px, 10px, 12px;
+    color: rgba(8, 30, 52, 1);
+}
+
+#magnifier {
+    width: 18.68px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+#jumystap {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.description {
+    height: 620px;
+}
+
+.how_it_works {
+    background-color: rgba(225, 222, 231, 1);
+    height: 562px;
 }
