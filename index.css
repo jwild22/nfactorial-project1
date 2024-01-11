@@ -31,6 +31,14 @@ button {
     background-color: transparent;
     border: none;
     color: rgba(8, 30, 52, 1);
+    font-family: 'Inter';
+    height: 38px;
+}
+
+#get_started {
+    background-color: rgba(8, 30, 52, 0.12);
+    width: 102px;
+    border-radius: 100px;
 }
 
 #magnifier {
