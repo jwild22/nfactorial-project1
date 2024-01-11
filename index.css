@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(241, 241, 241, 1);
+}
+
+.header {
+    width: 1440px;
+    height: 62px;
+    padding: 12px, 80px, 12px, 80px;
+    gap: 748px;
+}
