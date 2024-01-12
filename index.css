@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 body {
   background-color: rgba(241, 241, 241, 1);
-  font-family: 'Kanit';
+  font-family: 'Kanit', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -12,45 +15,57 @@ button {
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 62px;
   align-items: center;
+  height: 62px;
+  padding: 12px 80px 12px 80px;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  width: 144px;
+  gap: 10px;
+}
+
+.logo img {
+  width: 18.68px;
   height: 22px;
-  margin: 20px 0 20px 80px;
+}
+
+.logo p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .menu {
-  margin: 0 87.32px 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgba(8, 30, 52, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .menu button {
-  background-color: transparent;
-  border: none;
-  color: rgba(8, 30, 52, 1);
-  font-family: 'Inter';
-  height: 38px;
-}
-
-#get_started {
   background-color: rgba(8, 30, 52, 0.12);
-  width: 102px;
+  color: rgba(8, 30, 52, 1);
+  border: none;
+  padding: 10px 12px 10px 12px;
   border-radius: 100px;
-}
-
-#magnifier {
-  width: 18.68px;
-  height: 22px;
-  margin-right: 10px;
-}
-
-#jumystap {
-  font-size: 18px;
-  color: rgba(0, 0, 0, 1);
+  width: 102px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  gap: 8px;
 }
 
 .description {
