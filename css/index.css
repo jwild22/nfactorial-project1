@@ -304,8 +304,40 @@ button {
   text-align: left;
 }
 
+.input_field_info_search {
+  display: flex;
+  width: 757px;
+  height: 50px;
+  gap: 32px;
+}
+
+.input_field_info_search input {
+  width: 619px;
+  padding: 13px 75px 13px 40px;
+  border-radius: 12px;
+  border: 1px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-image: url('/images/search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+.input_field_info_search ::placeholder {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.2;
+}
+
 .input_field_info_search button {
-  width: 106px;
   height: 50px;
   padding: 16px 24px 16px 24px;
   border-radius: 100px;
