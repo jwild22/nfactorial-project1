@@ -228,8 +228,8 @@ button {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 400px;
   height: 186px;
+  width: 375px;
   gap: 48px;
 }
 
@@ -243,7 +243,6 @@ button {
 .bottom_info_text {
   display: flex;
   flex-direction: column;
-  width: 400px;
   height: 74px;
   gap: 24px;
 }
@@ -255,12 +254,10 @@ button {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  width: 400px;
   height: 28px;
 }
 
 .bottom_info_description {
-  width: 400px;
   height: 22px;
   font-family: Inter;
   font-size: 16px;
@@ -406,4 +403,71 @@ button {
   float: left;
   width: 18px;
   height: 18px;
+}
+
+footer.navbar {
+  background-color: rgba(255, 255, 255, 1);
+  height: 172px;
+  padding: 0 80px 0 80px;
+  border-radius: 32px 32px 0px 0px;
+  gap: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer_top {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  gap: 105px;
+}
+
+footer .menu {
+  width: 372px;
+  height: 38px;
+  gap: 16px;
+}
+
+footer .menu img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer a {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer_text {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(8, 30, 52, 0.5);
+}
+
+.made {
+  width: 272px;
+  height: 38px;
+  padding: 0 12px, 0 12px;
+  border-radius: 100px;
+  gap: 8px;
+}
+
+.made a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(8, 30, 52, 1);
 }
