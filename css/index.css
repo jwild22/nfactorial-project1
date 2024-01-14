@@ -154,10 +154,14 @@ button {
   text-align: center;
 }
 
+.visual {
+  display: flex;
+}
+
 .laptop {
   width: 619px;
   height: 420px;
-  border-radius: 32px;
+  border-radius: 32px;;
 }
 
 .dollar {
@@ -171,7 +175,7 @@ button {
   position: absolute;
   width: 148px;
   height: 172px;
-  bottom: 131px;
+  top: 400px;
   left: 1200px;
 }
 
