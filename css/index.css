@@ -196,7 +196,6 @@ button {
   width: 351px;
   height: 84px;
   gap: 64px;
-  background-color: red;
 }
 
 .top_description {
@@ -219,14 +218,53 @@ button {
 
 .bottom {
   display: flex;
-  background-color: aqua;
+  justify-content: center;
   width: 1280px;
   height: 186px;
   gap: 40px;
 }
 
 .bottom_info {
+  display: flex;
+  flex-direction: column;
   width: 400px;
   height: 186px;
   gap: 48px;
+}
+
+.bottom_info_image {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  gap: 10px;
+}
+
+.bottom_info_text {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 74px;
+  gap: 24px;
+}
+
+.bottom_info_title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 400px;
+  height: 28px;
+}
+
+.bottom_info_description {
+  width: 400px;
+  height: 22px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
 }
